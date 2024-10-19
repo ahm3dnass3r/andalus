@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+     <!-- Font Awesome icons (free version)-->
+     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <link rel="pingback" href="http://lamaro.like-themes.com/xmlrpc.php">
+    <link type="text/css"  href="./style/style1.css" rel="stylesheet" />
+    <link type="text/css" media="only screen and (max-width: 768px)" href="./style/autoptimize.css" rel="stylesheet" />
+    <title>Lamaro &#8211; WordPress Theme</title>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Lamaro &raquo; Feed"
+        href="http://lamaro.like-themes.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Lamaro &raquo; Comments Feed"
+        href="http://lamaro.like-themes.com/comments/feed/" />
+    
+    <link rel='stylesheet' id='dashicons-css' href='http://lamaro.like-themes.com/wp-includes/css/dashicons.min.css'
+        type='text/css' media='all' />
+    <style id='lamaro-theme-style-inline-css' type='text/css'>
+        @font-face {
+            font-family: 'lamaro-fontello';
+            src: url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.eot?1.2');
+            src: url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.eot?1.2#iefix') format('embedded-opentype'),
+                url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.woff2?1.2') format('woff2'),
+                url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.woff?1.2') format('woff'),
+                url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.ttf?1.2') format('truetype'),
+                url('//lamaro.like-themes.com/wp-content/uploads/2018/02/ltx-lamaro.svg?1.2#ltx-lamaro') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --black: #28364B;
+            --black-darker: #000419;
+            --black-text: rgba(40, 54, 75, 1);
+            --black-light: rgba(40, 54, 75, .2);
+            --gray: #F1F0E8;
+            --gray-lighter: rgba(241, 240, 232, .5);
+            --white: #FFFFFF;
+            --main: #CEBD88;
+            --main-darker: #b09f6a;
+            --main-lighter: rgba(206, 189, 136, .5);
+            --red: #E14C38;
+            --font-main: 'Raleway';
+            --font-headers: 'Playfair Display';
+            --font-subheaders: 'Pinyon Script';
+        }
+
+        .header-wrapper {
+            background-image: url(//lamaro.like-themes.com/wp-content/uploads/2018/02/inner_header-3.jpg) !important;
+        }
+
+        .header-wrapper::after {
+            background-image: url(//lamaro.like-themes.com/wp-content/uploads/2018/02/rope.png) !important;
+        }
+
+        #ltx-widgets-footer::after {
+            background-image: url(//lamaro.like-themes.com/wp-content/uploads/2018/02/footer-img.png) !important;
+        }
+
+        .go-top:before {
+            background-image: url(//lamaro.like-themes.com/wp-content/uploads/2018/02/boat-anchor.png) !important;
+        }
+
+        #nav-wrapper.navbar-layout-transparent nav.navbar {
+            background-color: rgba(40, 54, 75, 0);
+        }
+
+        #nav-wrapper.navbar-layout-transparent nav.navbar.darkest {
+            background-color: rgba(40, 54, 75, 0.95);
+        }
+
+        nav.navbar .logo img {
+            max-height: 140px;
+        }
+    </style>
+    <link rel='stylesheet' id='lamaro_google_fonts-css'
+        href='//fonts.googleapis.com/css?family=Raleway:500,400,600,700%7CPlayfair+Display:400,italic%7CPinyon+Script:400&#038;subset=latin-ext,latin'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='lamaro-fontello-css' href='./style/style3.css' type='text/css' media='all' />
+    <script type='text/javascript' src='./script/jquery.js'></script>
+    <link rel='https://api.w.org/' href='http://lamaro.like-themes.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://lamaro.like-themes.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="http://lamaro.like-themes.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.0.22" />
+    <meta name="generator" content="WooCommerce 3.5.10" />
+    <link rel="canonical" href="http://lamaro.like-themes.com/" />
+    <link rel='shortlink' href='http://lamaro.like-themes.com/' />
+    <link rel="alternate" type="application/json+oembed"
+        href="http://lamaro.like-themes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flamaro.like-themes.com%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="http://lamaro.like-themes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flamaro.like-themes.com%2F&#038;format=xml" />
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://lamaro.like-themes.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <link rel="icon" href="http://lamaro.like-themes.com/wp-content/uploads/2018/02/cropped-favicon-48x48.png"
+        sizes="32x32" />
+    <link rel="icon" href="http://lamaro.like-themes.com/wp-content/uploads/2018/02/cropped-favicon-200x200.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed"
+        href="http://lamaro.like-themes.com/wp-content/uploads/2018/02/cropped-favicon-200x200.png" />
+    <meta name="msapplication-TileImage"
+        content="http://lamaro.like-themes.com/wp-content/uploads/2018/02/cropped-favicon-290x290.png" />
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1545783735033 {
+            margin-top: 0px !important;
+            background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/services-bg-2.png?id=7744) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1545772002257 {
+            background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/countup-bg.jpg?id=7690) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1545786074970 {
+            background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/video-section-bg.jpg?id=7687) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1574019276368 {
+            margin-top: -185px !important;
+            padding-top: 70px !important;
+            padding-bottom: 75px !important;
+            background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/parallax_lamaro.jpg?id=7685) !important;
+        }
+
+        .vc_custom_1545617337269 {
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1545704721937 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1545615649298 {
+            padding-top: 0px !important;
+            background-image: url(http://lamaro.like-themes.com/wp-content/uploads/2018/12/testimonials-bg.jpg?id=7679) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1545611518248 {
+            padding-top: 65px !important;
+            padding-bottom: 65px !important;
+        }
+
+        .vc_custom_1544223954654 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1545766595752 {
+            margin-bottom: 8px !important;
+        }
+
+        .vc_custom_1545617707580 {
+            margin-bottom: 8px !important;
+        }
+
+        .vc_custom_1545764080989 {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .vc_custom_1545692959862 {
+            margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1545616665197 {
+            margin-bottom: 8px !important;
+        }
+
+        .vc_custom_1545703737545 {
+            margin-top: 18px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .vc_custom_1545704195216 {
+            margin-bottom: 0px !important;
+        }
+
+        .vc_custom_1545613535036 {
+            margin-top: 25px !important;
+        }
+
+        .vc_custom_1545609232705 {
+            margin-top: 36px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .vc_custom_1545609262341 {
+            margin-bottom: 0px !important;
+        }
+    </style><noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body
+    class="home page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-5151 woocommerce-no-js full-width ltx-theme-header-icon paceloader-enabled no-sidebar wpb-js-composer js-comp-ver-5.6 vc_responsive">
+    <div id="ltx-preloader"></div>
+    <div class="header-wrapper  header-h1   header-parallax ltx-parallax   wrapper-navbar-layout-transparent">
+        <div id="nav-wrapper" class="navbar-layout-transparent">
+            <div class="container">
+                <nav class="navbar" data-spy="" data-offset-top="0">
+                    <div class="navbar-top">
+                        
+                        <div class="navbar-logo "> <a class="logo" href="http://lamaro.like-themes.com/"><img
+                                    src="./assests/imgs/logo_lamaro.png"
+                                    alt="Lamaro"
+                                    
+                                    ></a>
+                        </div>
+                      
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse" data-mobile-screen-width="992">
+                        <div class="toggle-wrap"> <a class="logo" href="#"><img
+                                    src="./assests/imgs/logo_lamaro.png"
+                                    alt="Lamaro"
+                                    ></a>
+                            <button type="button" class="navbar-toggle collapsed"> <span class="close"><span
+                                        class="">&times;</span></span> </button>
+                            <div class="clearfix"></div>
+                        </div>
+                        <ul id="menu-main-menu" class="nav navbar-nav">
+                            <li id="menu-item-6182"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5151 current_page_item current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-6182">
+                                <a href="#Home"><span>Home</span></a>
+                                
+                            </li>
+                            
+                            <li id="menu-item-619"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-619">
+                                <a href="#Services"><span>Services</span></a>
+                                
+                            </li>
+                            <li id="menu-item-59"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59">
+                                <a href="#agency"><span>Our agency</span></a>
+                                
+                            </li>
+                            <li id="menu-item-60"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60">
+                                <a href="#aboutus" ><span>About</span></a>
+                                
+                            </li>
+                            <li id="menu-item-46"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="#contact"><span>Contact</span></a></li>
+                            
+                        </ul>
+                        <div class="mobile-controls">
+                            <div>
+                                <ul>
+                                    <li class="ltx-fa-icon ltx-nav-profile menu-item-has-children "> <a
+                                            href="http://lamaro.like-themes.com/my-account/"><span
+                                                class="fa fa fa-user"></span> </a></li>
+                                    <li class="ltx-fa-icon ltx-nav-search  ">
+                                        <div class="top-search"> <a href="#" id="top-search-ico-mobile"
+                                                class="top-search-ico fa fa-search" aria-hidden="true"></a> <input
+                                                placeholder="Search" value="" type="text"></div>
+                                    </li>
+                                    <li class="ltx-fa-icon ltx-nav-cart ">
+                                        <div class="cart-navbar"> <a href="http://lamaro.like-themes.com/cart/"
+                                                class="ltx-cart cart shop_table" title="View your shopping cart"><span
+                                                    class="cart-contents header-cart-count count">0</span><i
+                                                    class="fa fa fa-shopping-bag" aria-hidden="true"></i> </a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-controls"> <button type="button" class="navbar-toggle collapsed"> <span
+                                class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span
+                                class="icon-bar bottom-bar"></span> </button></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container main-wrapper">
+        <div class="inner-page text-page margin-disabled">
+            <div class="row centered">
+                <div class="col-xl-12 col-xs-12 text-page">
+                    <article id="post-5151" class="post-5151 page type-page status-publish hentry">
+                        <div class="entry-content clearfix" id="entry-div">
+                            <section data-vc-full-width="true" data-vc-full-width-init="false"
+                                data-vc-stretch-content="true"
+                                class="vc_section bg-color-black ltx-sr ltx-sr-effect-fade_in ltx-sr-id-1972381946 ltx-sr-el-text_el ltx-sr-delay-500 ltx-sr-duration-300 ltx-sr-sequences-100">
+                                <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                    data-vc-stretch-content="true"
+                                    class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="slider-zoom  zoom-default  zoom-style-default  zoom-origin-center-center  overlay-dots  bullets-false  zoom-content-effect-fade-in  zoom-margin-top "
+                                                    id="like_sc_zoom_slider_460332835" data-zs-prev="" data-zs-next=""
+                                                    data-zs-overlay="dots" data-zs-initzoom="1.2" data-zs-speed="20000"
+                                                    data-zs-interval="8000" data-zs-switchSpeed="7000"
+                                                    data-zs-arrows="true" data-zs-bullets="false"
+                                                    data-zs-src='[&#34;https://img.freepik.com/free-photo/aerial-view-ship_144627-45269.jpg&#34;,&#34;https://img.freepik.com/free-photo/aerial-view-container-cargo-ship-sea_335224-720.jpg&#34;,&#34;https://img.freepik.com/free-photo/aerial-view-cargo-ship-with-cargo-container-sea_335224-1372.jpg&#34;,&#34;https://img.freepik.com/free-photo/cargo-container-ship_1359-272.jpg&#34;]'>
+                                                    <div class="container ltx-zs-slider-wrapper">
+                                                        <div class="ltx-zs-slider-inner  inited visible  ltx-zs-slide-0"
+                                                            data-index="0">
+                                                            <div
+                                                                class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex text-align-center">
+                                                                <div
+                                                                    class="wpb_column vc_column_container vc_col-sm-12">
+                                                                    <div class="vc_column-inner">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                            </div>
+                                                                            <div class="heading  heading-large header-underline align-center color-white subcolor-main transform-default has-subheader icon-type-hidden heading-tag-h1"
+                                                                                id="like_sc_header_944976624">
+                                                                                <h4
+                                                                                    class="subheader -id-like_sc_header_9449766241709357179  -effect-fade_in -el-block -delay-100 -duration-300 -sequences-50">
+                                                                                    Navigating Success,</h4>
+                                                                                <h1
+                                                                                    class="header -id-like_sc_header_9449766241736742747  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                                     One Charter at a Time</h1>
+                                                                            </div>
+                                                                            <div class="ltx-content-width col-align-center"
+                                                                                id="like_sc_content_width_444542521"
+                                                                                style="max-width: 1000px">
+                                                                                <div class="ltx-wrapper">
+                                                                                    <div
+                                                                                        class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p
+                                                                                                style="text-align: center">
+                                                                                                <span
+                                                                                                    class="text-lg">
+                                                                                                
+                                                                                                
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ltx-zs-slider-inner  ltx-zs-slide-1" data-index="1">
+                                                            <div
+                                                                class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex text-align-center">
+                                                                <div
+                                                                    class="wpb_column vc_column_container vc_col-sm-12">
+                                                                    <div class="vc_column-inner">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                            </div>
+                                                                            <div class="heading  heading-large header-underline align-center color-white subcolor-main transform-default has-subheader icon-type-hidden heading-tag-h1"
+                                                                                id="like_sc_header_1656246738">
+                                                                                <h4
+                                                                                    class="subheader -id-like_sc_header_165624673813713175  -effect-fade_in -el-block -delay-100 -duration-300 -sequences-50">
+                                                                                    Your Trusted Partner</h4>
+                                                                                <h1
+                                                                                    class="header -id-like_sc_header_1656246738200907559  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                                    in Global Shipping</h1>
+                                                                            </div>
+                                                                            <div class="ltx-content-width col-align-center"
+                                                                                id="like_sc_content_width_1067970736"
+                                                                                style="max-width: 1000px">
+                                                                                <div class="ltx-wrapper">
+                                                                                    <div
+                                                                                        class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p
+                                                                                                style="text-align: center">
+                                                                                                <span
+                                                                                                    class="text-lg">
+                                                                                                
+                                                                                                
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ltx-zs-slider-inner  ltx-zs-slide-2" data-index="2">
+                                                            <div
+                                                                class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex text-align-center">
+                                                                <div
+                                                                    class="wpb_column vc_column_container vc_col-sm-12">
+                                                                    <div class="vc_column-inner">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                            </div>
+                                                                            <div class="heading  heading-large header-underline align-center color-white subcolor-main transform-default has-subheader icon-type-hidden heading-tag-h1"
+                                                                                id="like_sc_header_502292815">
+                                                                                <h4
+                                                                                    class="subheader -id-like_sc_header_50229281532535632  -effect-fade_in -el-block -delay-100 -duration-300 -sequences-50">
+                                                                                    Prepare for</h4>
+                                                                                <h1
+                                                                                    class="header -id-like_sc_header_502292815283447845  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                                    Fantasy sailing</h1>
+                                                                            </div>
+                                                                            <div class="ltx-content-width col-align-center"
+                                                                                id="like_sc_content_width_831181661"
+                                                                                style="max-width: 1000px">
+                                                                                <div class="ltx-wrapper">
+                                                                                    <div
+                                                                                        class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p
+                                                                                                style="text-align: center">
+                                                                                                <span
+                                                                                                    class="text-lg">
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                            </div>
+                                                                           
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ltx-zs-slider-inner  ltx-zs-slide-3" data-index="3">
+                                                            <div
+                                                                class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex text-align-center">
+                                                                <div
+                                                                    class="wpb_column vc_column_container vc_col-sm-12">
+                                                                    <div class="vc_column-inner">
+                                                                        <div class="wpb_wrapper">
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 100px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 100px;"></div>
+                                                                            </div>
+                                                                            <div class="heading  heading-large header-underline align-center color-white subcolor-main transform-default has-subheader icon-type-hidden heading-tag-h1"
+                                                                                id="like_sc_header_1069368875">
+                                                                                <h4
+                                                                                    class="subheader -id-like_sc_header_1069368875634432198  -effect-fade_in -el-block -delay-100 -duration-300 -sequences-50">
+                                                                                    Catch wind</h4>
+                                                                                <h1
+                                                                                    class="header -id-like_sc_header_10693688751813735463  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                                    Explore dreams</h1>
+                                                                            </div>
+                                                                            <div class="ltx-content-width col-align-center"
+                                                                                id="like_sc_content_width_1519501472"
+                                                                                style="max-width: 1000px">
+                                                                                <div class="ltx-wrapper">
+                                                                                    <div
+                                                                                        class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p
+                                                                                                style="text-align: center">
+                                                                                                <span
+                                                                                                    class="text-lg">
+                                                                                                
+                                                                                                
+                                                                                                </span>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 36px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 36px;"></div>
+                                                                            </div>
+                                                                           
+                                                                            <div class="es-resp">
+                                                                                <div class="visible-xl"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-md"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-sm "
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-ms"
+                                                                                    style="height: 200px;"></div>
+                                                                                <div class="visible-xs"
+                                                                                    style="height: 200px;"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                            </section>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <section data-vc-full-width="true" data-vc-full-width-init="false"
+                                class="vc_section vc_custom_1545783735033 vc_section-has-fill bg-color-gray bg-pos-center-center ltx-overlay bg-overlay-divider displaced-top">
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div
+                                                    class="wpb_single_image wpb_content_element vc_align_left   ltx-sea-anchor">
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="228" height="311"
+                                                                src="./assests/imgs/sea-anchor.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="./assests/imgs/sea-anchor.png 228w, ./assests/imgs/sea-anchor-220x300.png 220w, ./assests/imgs/sea-anchor-92x125.png 92w"
+                                                                sizes="(max-width: 228px) 100vw, 228px" /></div>
+                                                    </figure>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 12px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 12px;"></div>
+                                                    <div class="visible-md" style="height: 12px;"></div>
+                                                    <div class="visible-sm " style="height: 12px;"></div>
+                                                    <div class="visible-ms" style="height: 12px;"></div>
+                                                    <div class="visible-xs" style="height: 12px;"></div>
+                                                </div>
+                                                <div class="heading  header-underline align-center color-black subcolor-main transform-default has-subheader icon-type-default   vc_custom_1545766595752 heading-tag-h2"
+                                                    id="Services">
+                                                    <h4
+                                                        class="subheader ltx-sr-id-like_sc_header_1107057404620545224 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                                                        What we do</h4>
+                                                    <h2
+                                                        class="header ltx-sr-id-like_sc_header_11070574041568713431 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                        services</h2>
+                                                </div>
+                                                <div class="ltx-content-width col-align-center"
+                                                    id="like_sc_content_width_762672509" style="max-width: 1000px">
+                                                    <div class="ltx-wrapper">
+                                                        <div class="wpb_text_column wpb_content_element ">
+                                                            <div class="wpb_wrapper">
+                                                                <p style="text-align: center">
+                                                                    At Al-Andalus, we specialize in providing comprehensive solutions in sea shipping, logistics, stevedoring, and Suez Canal transit. Our experienced team ensures efficient cargo handling,
+                                                                     smooth passage through strategic waterways, and reliable global shipping operations.
+                                                                    With a commitment to excellence and precision, Al-Andalus is your trusted partner in navigating the complexities of the maritime industry
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 6px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 6px;"></div>
+                                                    <div class="visible-md" style="height: 6px;"></div>
+                                                    <div class="visible-sm " style="height: 6px;"></div>
+                                                    <div class="visible-ms" style="height: 6px;"></div>
+                                                    <div class="visible-xs" style="height: 6px;"></div>
+                                                </div>
+                                                <div class="services-sc  layout-slider ltx-style-gray" 
+                                                    id="like_sc_services_116182520">
+                                                    <div class="swiper-container services-slider" data-autoplay="0"
+                                                        data-cols="3">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <article data-mh="ltx-service" id="post-7727"
+                                                                    class="post-7727 services type-services status-publish has-post-thumbnail hentry services-category-services">
+                                                                    <a
+                                                                        href="#">
+                                                                        <span class="image"> <img width="430"
+                                                                                height="280"
+                                                                                src="./assests/imgs/shipping-430x280.jpg"
+                                                                                class="attachment-lamaro-service size-lamaro-service"
+                                                                                alt=""
+                                                                                srcset="./assests/imgs/shipping-430x280.jpg 430w, ./assests/imgs/shipping-300x195.jpg 300w, ./assests/imgs/shipping-128x84.jpg 128w"
+                                                                                sizes="(max-width: 430px) 100vw, 430px" />
+                                                                        </span> </a> <a href="#">
+                                                                        <h4 class="header">Shipping & Logistics</h4>
+                                                                    </a>
+                                                                    <p>
+                                                                        At Al-Andalus, we offer seamless sea shipping and logistics solutions designed to move your goods efficiently across the globe.
+                                                                         From secure, timely ocean freight to end-to-end logistics management, we optimize your supply chain, ensuring smooth transportation, 
+                                                                         warehousing, and distribution. With a focus on safety,
+                                                                        cost-effectiveness, and reliability, Al-Andalus delivers excellence at every step of your cargo’s journey.
+                                                                    </p>
+                                                                </article>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <article data-mh="ltx-service" id="post-7728"
+                                                                    class="post-7728 services type-services status-publish has-post-thumbnail hentry services-category-services">
+                                                                    <a
+                                                                        href="http://lamaro.like-themes.com/services/racing-routes-2/">
+                                                                        <span class="image"> <img width="430"
+                                                                                height="280"
+                                                                                src="./assests/imgs/stev-430x280.jpg"
+                                                                                class="attachment-lamaro-service size-lamaro-service"
+                                                                                alt=""
+                                                                                srcset="./assests/imgs/stev-430x280.jpg 430w, ./assests/imgs/stev-300x195.jpg 300w, ./assests/imgs/stev-128x84.jpg 128w"
+                                                                                sizes="(max-width: 430px) 100vw, 430px" />
+                                                                        </span> </a> 
+                                                                        <a href="#"> <h4 class="header">Stevedoring</h4> </a>
+                                                                    <p>
+                                                                        Al-Andalus offers expert stevedoring services, ensuring the efficient loading and unloading of cargo at ports.
+                                                                         Our skilled team manages the safe handling and transfer of goods, optimizing turnaround times and minimizing delays.
+                                                                         With our attention to detail and commitment to safety, we ensure your cargo is in capable hands from ship to shore
+                                                                    </p>
+                                                                </article>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <article data-mh="ltx-service" id="post-7729"
+                                                                    class="post-7729 services type-services status-publish has-post-thumbnail hentry services-category-services">
+                                                                    <a
+                                                                        href="#">
+                                                                        <span class="image"> <img width="430"
+                                                                                height="280"
+                                                                                src="./assests/imgs/suez-canal-430x280.jpg"
+                                                                                class="attachment-lamaro-service size-lamaro-service"
+                                                                                alt=""
+                                                                                srcset="./assests/imgs/suez-canal-430x280.jpg 430w, ./assests/imgs/suez-canal-300x195.jpg 300w, ./assests/imgs/suez-canal-128x84.jpg 128w"
+                                                                                sizes="(max-width: 430px) 100vw, 430px" />
+                                                                        </span> </a> <a
+                                                                        href="#">
+                                                                        <h4 class="header"> suez canal transit</h4>
+                                                                    </a>
+                                                                    <p>
+                                                                        Al-Andalus specializes in facilitating smooth and efficient Suez Canal transit for vessels.
+                                                                         Our team navigates the complexities of this crucial waterway, ensuring timely passage and minimizing delays. With in-depth knowledge of canal regulations and operations, 
+                                                                        we provide seamless support for your ship’s journey through one of the world's most strategic maritime routes.
+                                                                    </p>
+                                                                </article>
+                                                            </div>
+                                                            
+                                                            
+                                                            
+                                                        </div>
+                                                        <div class="arrows">
+                                                                <a href="#" class="arrow-left fa fa-chevron-left"></a> 
+                                                                
+                                                                <a href="#" class="arrow-right fa fa-chevron-right"></a>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 90px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 90px;"></div>
+                                                    <div class="visible-md" style="height: 90px;"></div>
+                                                    <div class="visible-sm " style="height: 90px;"></div>
+                                                    <div class="visible-ms" style="height: 90px;"></div>
+                                                    <div class="visible-xs" style="height: 90px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <section data-vc-full-width="true" data-vc-full-width-init="false" id="aboutus"
+                                class="vc_section vc_custom_1545772002257 vc_section-has-fill displaced-top text-align-center-md-sm-ms">
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="heading  header-underline align-center color-black subcolor-main transform-default has-subheader icon-type-default   vc_custom_1545617707580 heading-tag-h2"
+                                                    id="like_sc_header_117850079">
+                                                    <h4
+                                                        class="subheader ltx-sr-id-like_sc_header_1178500791722958825 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                                                        About us</h4>
+                                                    <h2
+                                                        class="header ltx-sr-id-like_sc_header_117850079888442816 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                        About Al-Andalus charter</h2>
+                                                </div>
+                                                <div class="ltx-countup  animation-default layout-default"
+                                                    id="like_sc_countup_1414890825">
+                                                    <div class="row centered">
+                                                        <div
+                                                            class=" col-md-4  col-sm-6 col-ms-6 col-xs-12 center-flex countUp-wrap">
+                                                            <div class=" countUp-item item" data-mh="ltx-countup">
+                                                                <h2 class="header"><span class="countUp"
+                                                                        id="like_sc_countup_1414890825-0">11</span></h2>
+                                                                <h4 class="subheader">vessels</h4>
+                                                                <div class="descr">
+                                                                    As a trusted charter agent, Al-Andalus manages the operations of 11 vessels, ensuring optimal performance and smooth sailing for each. We handle every aspect of the chartering process, from coordinating voyages to ensuring compliance with international maritime regulations
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class=" col-md-4  col-sm-6 col-ms-6 col-xs-12 center-flex countUp-wrap">
+                                                            <div class=" countUp-item item" data-mh="ltx-countup"> 
+                                                                <h2 class="header"><span class="countUp"
+                                                                        id="like_sc_countup_1414890825-1"> 200 </span>
+                                                                </h2>
+                                                                <h4 class="subheader">Professional officers ,engineers and Sailors </h4>
+                                                                <div class="descr">At Al-Andalus, we pride ourselves on a team of highly skilled and experienced professional sailors. Their expertise ensures safe, efficient, and reliable operations for every voyage, from navigating challenging routes to managing onboard logistics.</div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class=" col-md-4  col-sm-6 col-ms-6 col-xs-12 center-flex countUp-wrap">
+                                                            <div class=" countUp-item item" data-mh="ltx-countup"> 
+                                                                <h2 class="header"><span class="countUp"
+                                                                        id="like_sc_countup_1414890825-2"> 10</span></h2>
+                                                                <h4 class="subheader">international agents</h4>
+                                                                <div class="descr">
+                                                                    Al-Andalus collaborates with a network of trusted international agents to provide seamless global shipping solutions. Our agents ensure smooth coordination and communication across borders, handling all logistics, customs, and local regulations. This global presence allows us to offer efficient, reliable services no matter where your cargo is headed.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 100px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 100px;"></div>
+                                                    <div class="visible-md" style="height: 100px;"></div>
+                                                    <div class="visible-sm " style="height: 100px;"></div>
+                                                    <div class="visible-ms" style="height: 100px;"></div>
+                                                    <div class="visible-xs" style="height: 100px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid ltx-life-row">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div
+                                                    class="wpb_single_image wpb_content_element vc_align_left   ltx-life">
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                                width="163" height="214"
+                                                                src="http://lamaro.like-themes.com/wp-content/uploads/2018/12/lifebuoy.png"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                srcset="http://lamaro.like-themes.com/wp-content/uploads/2018/12/lifebuoy.png 163w, http://lamaro.like-themes.com/wp-content/uploads/2018/12/lifebuoy-95x125.png 95w"
+                                                                sizes="(max-width: 163px) 100vw, 163px" /></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <section
+                                class="vc_section ltx-find vc_custom_1574019276368 vc_section-has-fill vc_section-o-content-middle vc_section-flex bg-color-black ltx-overlay bg-overlay-black displaced-top text-align-center-md-sm-ms bg-parallax ltx-bg-parallax-enabled ltx-bg-parallax-value-0.2">
+                                <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
+                                    <div
+                                        class="wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-1 vc_col-lg-3">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="heading  header-subheader align-left color-white subcolor-main transform-default has-subheader theme-icon-second icon-type-default ltx-lg-smaller  vc_custom_1545764080989 heading-tag-h2"
+                                                    id="like_sc_header_1276246974">
+                                                    <h4
+                                                        class="subheader ltx-sr-id-like_sc_header_127624697430651635 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                                                        Get an unique feeling</h4>
+                                                    <h2
+                                                        class="header ltx-sr-id-like_sc_header_1276246974263910656 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                        Find amazing<br /> vessels</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="es-resp">
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 48px;"></div>
+                                                    <div class="visible-md" style="height: 48px;"></div>
+                                                    <div class="visible-sm " style="height: 48px;"></div>
+                                                    <div class="visible-ms" style="height: 48px;"></div>
+                                                    <div class="visible-xs" style="height: 48px;"></div>
+                                                </div>
+                                                <div
+                                                    class="wpb_text_column wpb_content_element  vc_custom_1545692959862">
+                                                    <div class="wpb_wrapper">
+                                                        <p>Al-Andalus connects you with an impressive fleet of vessels tailored to meet your shipping needs. Whether you require bulk carriers, tankers, or specialized vessels, we offer access to modern, reliable ships that deliver exceptional performance. Our vessels are carefully selected for their capability, safety, and efficiency, ensuring your cargo is transported smoothly and securely across the seas</p>
+                                                    </div>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 48px;"></div>
+                                                    <div class="visible-md" style="height: 48px;"></div>
+                                                    <div class="visible-sm " style="height: 48px;"></div>
+                                                    <div class="visible-ms" style="height: 48px;"></div>
+                                                    <div class="visible-xs" style="height: 48px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </section>
+                            <section data-vc-full-width="true" data-vc-full-width-init="false" id="agency"
+                                class="vc_section vc_custom_1545617337269 vc_section-has-fill bg-pos-center-center text-align-center-ms">
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 0px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 0px;"></div>
+                                                    <div class="visible-md" style="height: 0px;"></div>
+                                                    <div class="visible-sm " style="height: 0px;"></div>
+                                                    <div class="visible-ms" style="height: 0px;"></div>
+                                                    <div class="visible-xs" style="height: 0px;"></div>
+                                                </div>
+                                                <div class="heading  header-underline align-center color-black subcolor-main transform-default has-subheader icon-type-hidden   vc_custom_1545616665197 heading-tag-h2"
+                                                    id="like_sc_header_1328276609">
+                                                    <h4
+                                                        class="subheader ltx-sr-id-like_sc_header_1328276609420007361 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                                                        choose one of</h4>
+                                                    <h2
+                                                        class="header ltx-sr-id-like_sc_header_1328276609423393115 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                        11 vessels</h2>
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 32px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 32px;"></div>
+                                                    <div class="visible-md" style="height: 32px;"></div>
+                                                    <div class="visible-sm " style="height: 32px;"></div>
+                                                    <div class="visible-ms" style="height: 32px;"></div>
+                                                    <div class="visible-xs" style="height: 32px;"></div>
+                                                </div>
+                                                <div class="services-sc  layout-photos ltx-style-gray row centered" id="like_sc_services_963794123">
+                                                    <!-- ITEM1 -->
+                                                    <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                        <article id="post-6897"
+                                                            class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                            <a href=#"
+                                                                class="image"> <span> <img width="200" height="200"
+                                                                        src="./assests/imgs/vessels/jasmine2.jpg"
+                                                                        class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                        alt=""
+                                                                        sizes="(max-width: 200px) 100vw, 200px" />
+                                                                </span> </a>
+                                                            <div class="descr"> <a
+                                                                    href="#">
+                                                                    <h4 class="header"> MV JASMINE </h4>
+                                                                </a> <span class="term">IMO No: 8902826</span>
+                                                                <p>
+                                                                    Vessel Type: General Cargo <br>
+                                                                    Year Of Build: 1990 <br>
+                                                                    Length (m): 107.02 <br>
+                                                                    Breadth (m): 19.2 <br>
+                                                                    Depth (m): 13.4 <br>
+                                                                </p><span class="price">Nationality:
+                                                                    <span> Republic Of Palau </span></span>
+                                                            </div>
+                                                        </article>
+                                                    </div>
+                                                    
+                                                <!-- ITEM2 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/LILY_OF_SEA.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV Lily Of Sea </h4>
+                                                            </a> <span class="term">IMO No: 9176383</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1998 <br>
+                                                                Length (m): 110.32 <br>
+                                                                Breadth (m): 19.6 <br>
+                                                                Depth (m): 14.3 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div> 
+                                                
+                                                <!-- ITEM3 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/kalina.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV KALINA </h4>
+                                                            </a> <span class="term">IMO No: 8513247</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1987 & Rebuild 2008 <br>
+                                                                Length (m): 116.2 <br>
+                                                                Breadth (m): 21 <br>
+                                                                Depth (m): 12 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div> 
+
+
+                                                <!-- ITEM4 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/lotus.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV Lotus </h4>
+                                                            </a> <span class="term">IMO No: 8920153</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1990 <br>
+                                                                Length (m): 102.17 <br>
+                                                                Breadth (m): 20<br>
+                                                                Depth (m): 13.5 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div> 
+
+                                                <!-- ITEM5 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/irisofsea.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV Iris Of Sea </h4>
+                                                            </a> <span class="term">IMO No: 9054937</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1999 <br>
+                                                                Length (m): 102.29 <br>
+                                                                Breadth (m): 18.2<br>
+                                                                Depth (m): 13.2 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+                                                <!-- ITEM6 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/TULIP_M.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV Tulip M</h4>
+                                                            </a> <span class="term">IMO No: 9120736</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1998 <br>
+                                                                Length (m): 115.35 <br>
+                                                                Breadth (m): 19.99<br>
+                                                                Depth (m): 10.39 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+
+                                                <!-- ITEM7 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/SHANGHAI.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV Shanghai M</h4>
+                                                            </a> <span class="term">IMO No: 9015773</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1992 <br>
+                                                                Length (m): 116.68 <br>
+                                                                Breadth (m): 20.4<br>
+                                                                Depth (m): 13.5 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+
+                                                <!-- ITEM8 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/copernico.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV CoperNico</h4>
+                                                            </a> <span class="term">IMO No: 9046083</span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1999 <br>
+                                                                Length (m): 111.87 <br>
+                                                                Breadth (m): 20<br>
+                                                                Depth (m): 10.4 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+                                                <!-- ITEM9 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/cecellia.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV CECELLIA</h4>
+                                                            </a> <span class="term">IMO No: 9032288 </span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1991 <br>
+                                                                Length (m): 121.00 <br>
+                                                                Breadth (m): 20.80 <br>
+                                                                Depth (m): 13.65 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Sao Tome and Principe </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+
+                                                <!-- ITEM10 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/amberM.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV AMBER M</h4>
+                                                            </a> <span class="term">IMO No: 9015797 </span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1991 <br>
+                                                                Length (m): 91.70 <br>
+                                                                Breadth (m): 18.20 <br>
+                                                                Depth (m): 13.00 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Sao Tome and Principe </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+                                                <!-- ITEM10 -->
+                                                <div class="col-lg-6 col-md-12 col-sm-12 col-ms-12">
+                                                    <article id="post-6897"
+                                                        class="post-6897 services type-services status-publish has-post-thumbnail hentry services-category-routes">
+                                                        <a href=#"
+                                                            class="image"> <span> <img width="200" height="200"
+                                                                    src="./assests/imgs/vessels/alandalus.jpg"
+                                                                    class="attachment-lamaro-service-square size-lamaro-service-square"
+                                                                    alt=""
+                                                                    sizes="(max-width: 200px) 100vw, 200px" />
+                                                            </span> </a>
+                                                        <div class="descr"> <a
+                                                                href="#">
+                                                                <h4 class="header"> MV ALANDALUS</h4>
+                                                            </a> <span class="term">IMO No: 9216339 </span>
+                                                            <p>
+                                                                Vessel Type: General Cargo <br>
+                                                                Year Of Build: 1999 <br>
+                                                                Length (m): 110.22 <br>
+                                                                Breadth (m): 20.50 <br>
+                                                                Depth (m): 13.50 <br>
+                                                            </p><span class="price">Nationality:
+                                                                <span> Republic Of Palau </span></span>
+                                                        </div>
+                                                    </article>
+                                                </div>
+
+
+
+
+
+
+
+
+                                                </div>
+                                                <div class="es-resp">
+                                                    <div class="visible-xl" style="height: 120px;"></div>
+                                                    <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                        style="height: 120px;"></div>
+                                                    <div class="visible-md" style="height: 120px;"></div>
+                                                    <div class="visible-sm " style="height: 120px;"></div>
+                                                    <div class="visible-ms" style="height: 120px;"></div>
+                                                    <div class="visible-xs" style="height: 120px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                                                        
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe-wrapper">
+        <div class="container">
+            <div class="subscribe-block">
+                <section class="vc_section">
+                    <div class="vc_row wpb_row vc_row-fluid">
+                        <div
+                            class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-6 vc_hidden-md vc_hidden-sm vc_hidden-xs">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="heading  header-subheader align-left color-black subcolor-main transform-default has-subheader theme-icon-second heading-icon-fa  icon-type-default heading-tag-h4"
+                                        id="like_sc_header_1017676666"><span
+                                            class="heading-icon-fa-wrap bg-transparent icon-dove "></span>
+                                        <div class="heading-content">
+                                            <h4
+                                                class="subheader ltx-sr-id-like_sc_header_10176766661918581468 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                                                Sign up for speacial offers</h4>
+                                            <h4
+                                                class="header ltx-sr-id-like_sc_header_10176766661582531328 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                Subscribe our newsletter</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6 vc_hidden-sm vc_hidden-xs text-align-right-lg">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <section id="ltx-widgets-footer" class="ltx-fw" id="contact"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm  matchHeight clearfix">
+                    <div class="footer-widget-area"> <a class="logo" href="http://lamaro.like-themes.com/"><img
+                                src="./assests/imgs/logo_lamaro.png"
+                                alt="Lamaro" />
+                        <div id="text-12" class="widget widget_text">
+                            <div class="textwidget"></div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm hidden-md matchHeight clearfix">
+                    <div class="footer-widget-area">
+                        <div id="ltx_navmenu-4" class="widget widget_ltx_navmenu">
+                            <h3 class="header-widget ltx-theme-header">Explore<span class="widget-icon"></span></h3>
+                            <div class="menu-main-menu-container">
+                                <ul id="menu-main-menu-1" class="menu">
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5151 current_page_item current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-6182">
+                                        <a href="#home">Home</a></li>
+                                   >
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="#Services">Services</a></li>
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="#agency">Our agency</a></li>
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="#aboutus">About</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="#contact">Contact</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12   matchHeight clearfix">
+                    <div class="footer-widget-area">
+                        <div id="ltx_icons-2" class="widget widget_ltx_icons">
+                            <h3 class="header-widget ltx-theme-header">Contact us<span class="widget-icon"></span></h3>
+                            <ul class="social-icons-list">
+                                <li><a href="#"><span class="fa fa-map-marker"></span> Office No.42 – The Prime Tower - Commercial Center - Business Bay – UAE</a></li>
+                                <li><a href="#"><span class="fa fa-phone"></span> 971-50-4430925 </a></li>
+                                <!-- <li><a href="#"><span class="fa fa-envelope"></span>lamaro@lamaroyc.us</a></li> -->
+                                <li><a href="#"><span class="fa fa-building"></span> AL ANDALUS SHIP CHARTER L.L.C</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="copyright-block copyright-layout-default">
+        <div class="container">
+            <p> Ahmed Nasser © All Rights Reserved - 2024 </p>
+            <a href="#home" class="ltx-go-top floating"><img width="20" height="30"
+                    src="http://lamaro.like-themes.com/wp-content/uploads/2018/02/boat-anchor.png"
+                    class="attachment-full size-full" alt="" /><span>go top</span></a>
+        </div>
+    </footer>
+    
+    <!--[if lte IE 9]> <script type='text/javascript' src='http://lamaro.like-themes.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script> <![endif]-->
+    <script type="text/javascript" defer
+        src="http://lamaro.like-themes.com/wp-content/cache/autoptimize/js/autoptimize_07ec8542ad9a00b7dd6ca837d0e1cf92.js"></script>
+</body>
+
+</html>
+<!-- Dynamic page generated in 0.886 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2024-10-19 07:09:36 -->
+
+<!-- super cache -->
