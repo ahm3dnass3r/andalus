@@ -34441,7 +34441,7 @@ img.parallax-float {
     -webkit-opacity: .15;
     -moz-opacity: .15;
     opacity: .15;
-    background-image: url(//lamaro.like-themes.com/wp-content/themes/lamaro/assets/images/dots.png);
+    /* background-image: url(//lamaro.like-themes.com/wp-content/themes/lamaro/assets/images/dots.png); */
     background-position: 27px 27px;
     content: "";
     position: absolute;
@@ -64939,8 +64939,7 @@ body .wpb_gallery_slides ul li {
  */
 @font-face {
     font-family: 'FontAwesome';
-    src: url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
-    src: url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//lamaro.like-themes.com/wp-content/plugins/unyson/framework/static/libs/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    src: url(../assests/fonts/fontawesome-webfont.ttf);
     font-weight: normal;
     font-style: normal
 }
